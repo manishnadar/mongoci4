@@ -61,7 +61,7 @@ php -m | grep mongodb
 ### Step 2 — Install via Composer
 
 ```bash
-composer require mongoci4/mongoci4
+composer require manishnadar/mongoci4
 ```
 
 ### Step 3 — Register the Service
@@ -129,7 +129,7 @@ In `app/Config/Autoload.php`, add the package namespace so CI4 can discover the 
 ```php
 public $psr4 = [
     APP_NAMESPACE => APPPATH,
-    'MongoCI4'    => ROOTPATH . 'vendor/mongoci4/mongoci4/src',
+    'MongoCI4'    => ROOTPATH . 'vendor/manishnadar/mongoci4/src',
 ];
 ```
 
@@ -586,7 +586,7 @@ mongo_raw('events')
 ```
 your-ci4-project/
 ├── vendor/
-│   └── mongoci4/mongoci4/
+│   └── manishnadar/mongoci4/
 │       ├── composer.json
 │       ├── src/
 │       │   ├── Config/

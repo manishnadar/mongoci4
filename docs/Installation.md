@@ -41,7 +41,7 @@ php -m | grep mongodb
 
 Inside your CodeIgniter 4 project root:
 ```bash
-composer require mongoci4/mongoci4
+composer require manishnadar/mongoci4
 ```
 
 ---

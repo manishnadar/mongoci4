@@ -1,9 +1,9 @@
 {
-    "name": "mongoci4/mongoci4",
+    "name": "manishnadar/mongoci4",
     "description": "MongoDB Query Builder for CodeIgniter 4 — use MongoDB like MySQL with familiar CI4 syntax.",
     "type": "library",
     "keywords": ["codeigniter4", "mongodb", "query-builder", "database", "nosql"],
-    "homepage": "https://github.com/mongoci4/mongoci4",
+    "homepage": "https://github.com/manishnadar/mongoci4",
     "license": "MIT",
     "authors": [
         {

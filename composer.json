@@ -1,0 +1,44 @@
+{
+    "name": "mongoci4/mongoci4",
+    "description": "MongoDB Query Builder for CodeIgniter 4 — use MongoDB like MySQL with familiar CI4 syntax.",
+    "type": "library",
+    "keywords": ["codeigniter4", "mongodb", "query-builder", "database", "nosql"],
+    "homepage": "https://github.com/mongoci4/mongoci4",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MongoCI4 Contributors",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-mongodb": "*",
+        "mongodb/mongodb": "^1.15",
+        "codeigniter4/framework": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MongoCI4\\": "src/"
+        },
+        "files": [
+            "src/Helpers/mongo_helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MongoCI4\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "codeigniter4": {
+            "name": "MongoCI4",
+            "src": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
